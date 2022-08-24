@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import myprofileimage from "C:\Users\Sami\Desktop
-\Photo_de_profil_1.jpg";
-
-export function ProfilePhoto= ()=> {
+//import myprofileimage from "./Photo_de_profil_1.png";
+import "../Profile/style_photo.css";
+const ProfilePhoto= ()=> {
     return (
         <div>
-
-        <img src={myprofileimage} alt="myimage"/>
+        <img src="/Photo_de_profil_1.png" className="image" alt="myimage" />
         </div>
     )
 };
+export default ProfilePhoto;

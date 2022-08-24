@@ -1,9 +1,13 @@
-const function Adresse = ()=> {
+const Adresse =()=> {
     return (
-        <p>
-            My adresse : Route de Menzel Chaker
-                         KM3 , 5000, Sfax, Tunisie 
-        </p>
+    <div>
+
+      <h1>
+        My adresse : Route de Menzel Chaker KM3 , 5000, Sfax, Tunisie 
+     </h1>
+
+    </div>
+       
     )
-}
+};
 export default Adresse 
